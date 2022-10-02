@@ -4,20 +4,20 @@
 AUTOR: José A. Troyano
 REVISOR: Toñi Reina
 ÚLTIMA MODIFICACIÓN: 13/11/2019
-
+   
 En este proyecto trabajaremos con datos correspondientes a los nombres de las
 personas nacidas en España desde 2002 a 2017. Los datos están tomados del Instituto
 Nacional de Estadística (https://www.ine.es/), donde se pueden encontrar muchos datos interesantes
 principalmente sobre la demografía, economía, y sociedad españolas. Representaremos 
 la información de entrada mediante listas de tuplas, y a partir de esta estructura implementaremos
 una serie de funciones que nos permitirán realizar varios tipos de consultas y generar visualizaciones.
-
-FORMATO DE ENTRADA:
+ 
+FORMATO DE ENTRADA :
 -------------------
 Trabajaremos con ficheros en formato CSV. Cada registro del fichero de entrada ocupa
 una línea y contiene cuatro informaciones sobre los nombres (año, nombre, frecuencia, genero). 
 Estas son las primeras líneas de un fichero de entrada:
-
+   
     Año,Nombre,Frecuencia,Género
     2002,ALEJANDRO,8020,Hombre
     2002,PABLO,5799,Hombre
